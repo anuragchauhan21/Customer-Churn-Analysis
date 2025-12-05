@@ -3,7 +3,7 @@
 ## Overview
 This project looks at why customers leave a telecom company and how it affects revenue. The goal is to find patterns in customer behavior, identify who is most likely to leave, and show which groups could cause the most loss.
 
-## 📊 Interactive Power BI Dashboard – Customer Churn Risk & Revenue Impact
+## Interactive Power BI Dashboard
 
 This dashboard visualizes churn patterns, customer risk levels, and revenue at risk using insights from the ML model.  
 It highlights key KPIs, contract-wise losses, churn probability distribution, and high-value high-risk customers to support data-driven retention decisions.
