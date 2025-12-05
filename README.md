@@ -12,6 +12,8 @@ It highlights key KPIs, contract-wise losses, churn probability distribution, an
   <img src="assets/churn_dashboard.png" alt="Power BI Dashboard" width="900">
 </p>
 
+👉 [Download the Power BI Dashboard (.pbix)](Churn_Dashboard.pbix)
+
 ## Key Findings
 
 ### Who is Leaving
