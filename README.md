@@ -5,30 +5,28 @@ This project looks at why customers leave a telecom company and how it affects r
 
 ## Interactive Power BI Dashboard
 
-This dashboard visualizes churn patterns, customer risk levels, and revenue at risk using insights from the ML model.  
-It highlights key KPIs, contract-wise losses, churn probability distribution, and high-value high-risk customers to support data-driven retention decisions.
-
 <p align="center">
   <img src="assets/churn_dashboard.png" alt="Power BI Dashboard" width="900">
 </p>
 
-👉 [Download the Power BI Dashboard (.pbix)](Churn_Dashboard.pbix)
+This dashboard visualizes churn patterns, customer risk levels, and revenue at risk using insights from the ML model.  
+It highlights key KPIs, contract-wise losses, churn probability distribution, and high-value high-risk customers to support data-driven retention decisions.
 
 ## Key Findings
 
-### Who is Leaving
+#### Who is Leaving
 - About **26.5% of customers** are leaving.  
 - **Senior citizens** and **month-to-month contract customers** leave more often.  
 - Customers paying by **electronic check** are more likely to leave.  
 - Churn happens mostly in the **first few months** of their subscription.  
 - Customers with **0–3 services** leave more often, while customers with **6 or more services** usually stay.
 
-### Revenue at Risk
+#### Revenue at Risk
 - **43.6% of monthly revenue** could be lost if customers leave, which is around **₹1,98,932** per month.  
 - **1,542 high-value customers** make up **₹1,35,619** of that loss, making them the most important group to keep.  
 - **Month-to-month contracts** have the highest churn risk (0.59) and expected loss (₹1,64,462). Longer contracts lose much less money.
 
-### Factors Affecting Churn
+#### Factors Affecting Churn
 - **More likely to leave:** high monthly bills, high total charges, using internet services, not having online backup.  
 - **Less likely to leave:** long-term contracts, tech support, phone service, longer tenure, online security.
 
