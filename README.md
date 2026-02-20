@@ -12,6 +12,14 @@ This project looks at why customers leave a telecom company and how it affects r
 This dashboard visualizes churn patterns, customer risk levels, and revenue at risk using insights from the ML model.  
 It highlights key KPIs, contract-wise losses, churn probability distribution, and high-value high-risk customers to support data-driven retention decisions.
 
+## Approach
+- Cleaned and pre-processed telecom customer dataset
+- Performed *exploratory data analysis (EDA)* to identify churn patterns
+- Analyzed churn by contract type, tenure, services, and payment method
+- Calculated Revenue at Risk (RAR) and High-Value High-Risk (HVHR) segments
+- Built *baseline Logistic Regression model* for *churn probability estimation*
+- Integrated *risk scores* into Power BI dashboard for monitoring and decision support
+
 ## Key Findings
 
 #### Who is Leaving
