@@ -1,4 +1,4 @@
-# Telecom Customer Churn Analysis
+# Customer Churn Analysis
 
 ## Overview
 This project looks at why customers leave a telecom company and how it affects revenue. The goal is to find patterns in customer behavior, identify who is most likely to leave, and show which groups could cause the most loss.
@@ -9,17 +9,17 @@ This project looks at why customers leave a telecom company and how it affects r
   <img src="assets/churn_dashboard.png" alt="Power BI Dashboard" width="900">
 </p>
 
-This dashboard visualizes churn patterns, customer risk levels, and revenue at risk using insights from the ML model.  
-It highlights key KPIs, contract-wise losses, churn probability distribution, and high-value high-risk customers to support data-driven retention decisions.
+> This dashboard visualizes churn patterns, customer risk levels, and revenue at risk using insights from the ML model.  
+> It highlights key KPIs, contract-wise losses, churn probability distribution, and high-value high-risk customers to support data-driven retention decisions.
 
-## Approach
-- Cleaned and pre-processed telecom customer dataset
-- Performed *exploratory data analysis (EDA)* to identify churn patterns
-- Analyzed churn by contract type, tenure, services, and payment method
-- Calculated Revenue at Risk (RAR) and High-Value High-Risk (HVHR) segments
-- Built *baseline Logistic Regression model* for *churn probability estimation*
-- Integrated *risk scores* into Power BI dashboard for monitoring and decision support
+## Approach & Tech Stack
 
+> Data Preparation → Churn Analysis → Modeling → Risk Scoring → Revenue Impact → Dashboard
+
+- Python (`Pandas, NumPy, Scikit-learn`)
+- Machine Learning (`Logistic Regression, Decision Tree`)
+- Data Preprocessing & Feature Engineering
+- Power BI Dashboard.
 ## Key Findings
 
 #### Who is Leaving
