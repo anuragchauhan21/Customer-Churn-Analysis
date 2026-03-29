@@ -6,7 +6,7 @@ This project looks at why customers leave a telecom company and how it affects r
 ## Interactive Power BI Dashboard
 
 <p align="center">
-  <img src="assets/churn_dashboard.png" alt="Power BI Dashboard" width="900">
+  <img src="assets/dashboard_preview.png" alt="Power BI Dashboard" width="900">
 </p>
 
 > This dashboard visualizes churn patterns, customer risk levels, and revenue at risk using insights from the ML model.  
