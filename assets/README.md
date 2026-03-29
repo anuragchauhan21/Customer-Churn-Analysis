@@ -1,1 +1,1 @@
-Included the Power BI dashboard (.pbix) and exported visuals used in the project.
+Included the Power BI dashboard (.pbix) and dashboard_preview.png used in the project.
