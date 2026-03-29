@@ -30,9 +30,9 @@ This project looks at why customers leave a telecom company and how it affects r
 - Customers with **0–3 services** leave more often, while customers with **6 or more services** usually stay.
 
 #### Revenue at Risk
-- **43.6% of monthly revenue** could be lost if customers leave, which is around **₹1,98,932** per month.  
-- **1,542 high-value customers** make up **₹1,35,619** of that loss, making them the most important group to keep.  
-- **Month-to-month contracts** have the highest churn risk (0.59) and expected loss (₹1,64,462). Longer contracts lose much less money.
+- **45.29% of monthly revenue** could be lost if customers leave, which is around **₹2,13,073** per month.  
+- **1,722 high-value customers** make up **₹1,51,890** of that loss, making them the most important group to keep.  
+- **Month-to-month contracts** have the highest churn risk (0.63) and expected loss (₹1,74,151). Longer contracts lose much less money.
 
 #### Factors Affecting Churn
 - **More likely to leave:** high monthly bills, high total charges, using internet services, not having online backup.  
