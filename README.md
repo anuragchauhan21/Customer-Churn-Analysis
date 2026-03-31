@@ -20,17 +20,35 @@ This project looks at why customers leave a telecom company and how it affects r
 - Machine Learning (`Logistic Regression, Decision Tree`)
 - Data Preprocessing & Feature Engineering
 - Power BI Dashboard.
+
+## Modeling & Evaluation  
+
+Built classification models to predict customer churn using Logistic Regression and Decision Tree. Key features included contract type, tenure, monthly charges, payment method, and service usage.  
+
+## Modeling & Evaluation  
+
+Built classification models to predict customer churn using `Logistic Regression` and `Decision Tree`. Key features included contract type, tenure, monthly charges, payment method, and service usage.  
+
+### Model Performance  
+
+| Model                | Accuracy | Precision | Recall | F1-Score |
+|---------------------|----------|-----------|--------|----------|
+| Logistic Regression | 0.750    | 0.518     | 0.826  | 0.636    |
+| Decision Tree       | 0.745    | 0.512     | 0.791  | 0.622    |
+
+Logistic Regression performed better with higher recall and overall balanced performance, so it was selected as the final model. The model was used to assign churn probabilities, identify high-risk customers (>0.6), and estimate revenue at risk.
+
 ## Key Findings
 
 #### Who is Leaving
-- About **26.5% of customers** are leaving.  
+- About **26.54% of customers** are leaving.  
 - **Senior citizens** and **month-to-month contract customers** leave more often.  
 - Customers paying by **electronic check** are more likely to leave.  
 - Churn happens mostly in the **first few months** of their subscription.  
 - Customers with **0–3 services** leave more often, while customers with **6 or more services** usually stay.
 
 #### Revenue at Risk
-- **45.29% of monthly revenue** could be lost if customers leave, which is around **₹2,13,073** per month.  
+- **46.71% of monthly revenue** could be lost if customers leave, which is around **₹2,13,073** per month.  
 - **1,722 high-value customers** make up **₹1,51,890** of that loss, making them the most important group to keep.  
 - **Month-to-month contracts** have the highest churn risk (0.63) and expected loss (₹1,74,151). Longer contracts lose much less money.
 
