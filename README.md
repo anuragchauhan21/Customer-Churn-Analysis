@@ -40,9 +40,9 @@ Although XGBoost achieved higher precision, accuracy, and F1-score, its lower re
 
 | Model               | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 | ------------------- | -------- | --------- | ------ | -------- | ------- |
-| Logistic Regression | 0.750    | 0.518     | 0.826  | 0.636    | 0.862   |
+| Logistic Regression | 0.750    | 0.518     | **0.826**  | 0.636    | 0.862   |
 | Decision Tree       | 0.745    | 0.512     | 0.791  | 0.622    | 0.839   |
-| XGBoost             | 0.812    | 0.630     | 0.702  | 0.664    | 0.863   |
+| XGBoost             | **0.812**    | **0.630**     | 0.702  | **0.664**    | **0.863**   |
 
 Logistic Regression identified **308 of 373 actual churners**, resulting in **65 false negatives**. This was lower than the 78 false negatives from Decision Tree and 111 from XGBoost at the evaluated thresholds.
 
